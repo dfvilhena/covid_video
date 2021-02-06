@@ -2,7 +2,7 @@
 
 Pequeno projecto para visualizar a variação de novos com a adicional informação de medidas governamentais tomadas.
 
-![image](/frames/last_frame.png =200x)
+<img src="/covid_variation.gif" width="200">
 
 ## Referências
 Dados: https://github.com/dssg-pt/covid19pt-data
