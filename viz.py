@@ -124,5 +124,7 @@ gif[0].save(final_gif, save_all=True, optimize=False, append_images=gif[1:], loo
 
 ### Cleaning up
 
-for f in os.listdir(png_folder):
+for f in os.listdir(png_folder)[:-1]:
     os.remove(png_folder+f)
+frame_path = png_folder+os.listdir(png_folder)[0]
+os.rename(frame_path, png_folder+"last_frame.png")
